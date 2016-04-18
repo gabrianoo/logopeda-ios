@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="703-4V-yAM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="clB-vc-fyl">
+            <objects>
+                <viewController id="703-4V-yAM" customClass="RootViewController" customModule="Logopeda" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I7W-xW-C47"/>
+                        <viewControllerLayoutGuide type="bottom" id="IfR-02-kHw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="502-Ir-ELC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="-243"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="snT-py-3hH">
+            <objects>
+                <viewController storyboardIdentifier="DataViewController" id="S4R-Ja-viH" customClass="DataViewController" customModule="Logopeda" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXf-Jd-eTc"/>
+                        <viewControllerLayoutGuide type="bottom" id="EPS-s9-h4K"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZwX-cT-FIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-3s-vaZ">
+                                <rect key="frame" x="19" y="150" width="560" height="430"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5y-hp-WrG">
+                                <rect key="frame" x="19" y="63" width="560" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="H5y-hp-WrG" secondAttribute="height" multiplier="560:51" id="uCw-AB-RhG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.027045940980315208" green="0.042850904166698456" blue="0.043152682483196259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="S4R-Ja-viH" eventType="touchUpInside" id="VlP-RJ-HuS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99197608232498169" green="0.99591785669326782" blue="0.99203497171401978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="leading" secondItem="dzg-3s-vaZ" secondAttribute="leading" id="0pG-Fd-Mae"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="top" secondItem="fXf-Jd-eTc" secondAttribute="bottom" constant="43" id="7qL-jz-d59"/>
+                            <constraint firstItem="dzg-3s-vaZ" firstAttribute="top" secondItem="H5y-hp-WrG" secondAttribute="bottom" constant="36" id="FTl-Yf-ifk"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="trailing" secondItem="dzg-3s-vaZ" secondAttribute="trailing" id="FwI-LC-R28"/>
+                            <constraint firstAttribute="bottom" secondItem="dzg-3s-vaZ" secondAttribute="bottom" constant="20" symbolic="YES" id="p59-sb-iJw"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="trailing" secondItem="ZwX-cT-FIQ" secondAttribute="trailingMargin" id="vyo-NO-yPy"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" id="ygH-92-UP8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataImage" destination="dzg-3s-vaZ" id="HgN-SU-v6U"/>
+                        <outlet property="dataLabel" destination="H5y-hp-WrG" id="fwB-DL-DkS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="-441"/>
+        </scene>
+    </scenes>
+</document>
