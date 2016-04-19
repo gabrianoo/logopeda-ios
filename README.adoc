@@ -1,0 +1,4 @@
+image:https://travis-ci.org/gabrianoo/logopeda-ios.svg?branch=master["Build Status", link="https://travis-ci.org/gabrianoo/logopeda-ios"]
+
+= Logopeda
+Listen and Learn to Speak - Onomatopoeic Expressions
