@@ -1,7 +1,11 @@
 language: objective-c
 osx_image: xcode7.3
-xcode_project: Logopeda.xcodeproj
-xcode_scheme: Logopeda
-xcode_sdk: iphonesimulator9.3
-before_install:  # to fix xctool issue since Xcode 7.3
-- brew uninstall xctool && brew install --HEAD xctool
+before_install:
+  - sudo easy_install cpp-coveralls
+  - brew uninstall xctool
+  - brew update
+  - brew install xctool --HEAD  
+script:
+  - xctool test ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+after_success:
+  - ./script/coveralls.sh
