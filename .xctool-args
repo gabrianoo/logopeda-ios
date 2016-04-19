@@ -1,0 +1,5 @@
+[
+  "-project", "Logopeda.xcodeproj",
+  "-scheme", "Logopeda",
+  "-sdk", "iphonesimulator9.3"
+]
