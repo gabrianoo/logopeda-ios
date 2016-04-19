@@ -38,16 +38,6 @@
                ReferencedContainer = "container:Logopeda.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04522CA51CC56F7900E23337"
-               BuildableName = "LogopedaUITests.xctest"
-               BlueprintName = "LogopedaUITests"
-               ReferencedContainer = "container:Logopeda.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
