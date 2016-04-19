@@ -15,7 +15,6 @@
 		04522C921CC56F7900E23337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04522C911CC56F7900E23337 /* Assets.xcassets */; };
 		04522C951CC56F7900E23337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04522C931CC56F7900E23337 /* LaunchScreen.storyboard */; };
 		04522CA01CC56F7900E23337 /* LogopedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04522C9F1CC56F7900E23337 /* LogopedaTests.swift */; };
-		04522CAB1CC56F7900E23337 /* LogopedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04522CAA1CC56F7900E23337 /* LogopedaUITests.swift */; };
 		04D26B721CC57B76004592F0 /* BE.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B701CC57B76004592F0 /* BE.wav */; };
 		04D26B731CC57B76004592F0 /* MU.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B711CC57B76004592F0 /* MU.wav */; };
 		04D26B781CC58F8F004592F0 /* HAU.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B741CC58F8F004592F0 /* HAU.wav */; };
@@ -26,13 +25,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		04522C9C1CC56F7900E23337 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04522C7B1CC56F7900E23337 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04522C821CC56F7900E23337;
-			remoteInfo = Logopeda;
-		};
-		04522CA71CC56F7900E23337 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04522C7B1CC56F7900E23337 /* Project object */;
 			proxyType = 1;
@@ -54,9 +46,6 @@
 		04522C9B1CC56F7900E23337 /* LogopedaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogopedaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04522C9F1CC56F7900E23337 /* LogopedaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogopedaTests.swift; sourceTree = "<group>"; };
 		04522CA11CC56F7900E23337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04522CA61CC56F7900E23337 /* LogopedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogopedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04522CAA1CC56F7900E23337 /* LogopedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogopedaUITests.swift; sourceTree = "<group>"; };
-		04522CAC1CC56F7900E23337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D26B701CC57B76004592F0 /* BE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BE.wav; path = sounds/BE.wav; sourceTree = "<group>"; };
 		04D26B711CC57B76004592F0 /* MU.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MU.wav; path = sounds/MU.wav; sourceTree = "<group>"; };
 		04D26B741CC58F8F004592F0 /* HAU.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HAU.wav; sourceTree = "<group>"; };
@@ -80,13 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04522CA31CC56F7900E23337 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +77,6 @@
 			children = (
 				04522C851CC56F7900E23337 /* Logopeda */,
 				04522C9E1CC56F7900E23337 /* LogopedaTests */,
-				04522CA91CC56F7900E23337 /* LogopedaUITests */,
 				04522C841CC56F7900E23337 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +86,6 @@
 			children = (
 				04522C831CC56F7900E23337 /* Logopeda.app */,
 				04522C9B1CC56F7900E23337 /* LogopedaTests.xctest */,
-				04522CA61CC56F7900E23337 /* LogopedaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,15 +113,6 @@
 				04522CA11CC56F7900E23337 /* Info.plist */,
 			);
 			path = LogopedaTests;
-			sourceTree = "<group>";
-		};
-		04522CA91CC56F7900E23337 /* LogopedaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04522CAA1CC56F7900E23337 /* LogopedaUITests.swift */,
-				04522CAC1CC56F7900E23337 /* Info.plist */,
-			);
-			path = LogopedaUITests;
 			sourceTree = "<group>";
 		};
 		04D26B6F1CC57B39004592F0 /* sounds */ = {
@@ -195,24 +166,6 @@
 			productReference = 04522C9B1CC56F7900E23337 /* LogopedaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04522CA51CC56F7900E23337 /* LogopedaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04522CB51CC56F7900E23337 /* Build configuration list for PBXNativeTarget "LogopedaUITests" */;
-			buildPhases = (
-				04522CA21CC56F7900E23337 /* Sources */,
-				04522CA31CC56F7900E23337 /* Frameworks */,
-				04522CA41CC56F7900E23337 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04522CA81CC56F7900E23337 /* PBXTargetDependency */,
-			);
-			name = LogopedaUITests;
-			productName = LogopedaUITests;
-			productReference = 04522CA61CC56F7900E23337 /* LogopedaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,10 +180,6 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					04522C9A1CC56F7900E23337 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 04522C821CC56F7900E23337;
-					};
-					04522CA51CC56F7900E23337 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 04522C821CC56F7900E23337;
 					};
@@ -251,7 +200,6 @@
 			targets = (
 				04522C821CC56F7900E23337 /* Logopeda */,
 				04522C9A1CC56F7900E23337 /* LogopedaTests */,
-				04522CA51CC56F7900E23337 /* LogopedaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,13 +228,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04522CA41CC56F7900E23337 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -309,14 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04522CA21CC56F7900E23337 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04522CAB1CC56F7900E23337 /* LogopedaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -324,11 +257,6 @@
 			isa = PBXTargetDependency;
 			target = 04522C821CC56F7900E23337 /* Logopeda */;
 			targetProxy = 04522C9C1CC56F7900E23337 /* PBXContainerItemProxy */;
-		};
-		04522CA81CC56F7900E23337 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04522C821CC56F7900E23337 /* Logopeda */;
-			targetProxy = 04522CA71CC56F7900E23337 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,28 +411,6 @@
 			};
 			name = Release;
 		};
-		04522CB61CC56F7900E23337 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LogopedaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.logopeda.LogopedaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Logopeda;
-			};
-			name = Debug;
-		};
-		04522CB71CC56F7900E23337 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LogopedaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.logopeda.LogopedaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Logopeda;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,15 +437,6 @@
 			buildConfigurations = (
 				04522CB31CC56F7900E23337 /* Debug */,
 				04522CB41CC56F7900E23337 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04522CB51CC56F7900E23337 /* Build configuration list for PBXNativeTarget "LogopedaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04522CB61CC56F7900E23337 /* Debug */,
-				04522CB71CC56F7900E23337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
