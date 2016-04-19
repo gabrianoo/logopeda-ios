@@ -3,3 +3,5 @@ osx_image: xcode7.3
 xcode_project: Logopeda.xcodeproj
 xcode_scheme: Logopeda
 xcode_sdk: iphonesimulator9.3
+before_install:  # to fix xctool issue since Xcode 7.3
+- brew uninstall xctool && brew install --HEAD xctool
