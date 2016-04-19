@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="703-4V-yAM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7AL-Xa-1O2">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,12 +18,73 @@
                     <view key="view" contentMode="scaleToFill" id="502-Ir-ELC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99197608232498169" green="0.99591785669326782" blue="0.99203497171401978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-101" y="-243"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UjF-Sk-wbs">
+            <objects>
+                <viewController id="7AL-Xa-1O2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qb9-4X-T1M"/>
+                        <viewControllerLayoutGuide type="bottom" id="KJl-yY-NuX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0wC-xq-rSF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="300-pU-8SW">
+                                <rect key="frame" x="20" y="28" width="560" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="c9Z-v2-lAb"/>
+                                    <constraint firstAttribute="width" secondItem="300-pU-8SW" secondAttribute="height" multiplier="56:5" id="i0Q-EU-Z52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="13q-Kb-pGd">
+                                <rect key="frame" x="20" y="86" width="560" height="436"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyS-8i-gpL">
+                                <rect key="frame" x="20" y="530" width="560" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4Id-e8-4U5"/>
+                                    <constraint firstAttribute="width" secondItem="YyS-8i-gpL" secondAttribute="height" multiplier="56:5" id="rtn-ol-pYz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="703-4V-yAM" kind="show" id="son-Un-Ctc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="300-pU-8SW" firstAttribute="trailing" secondItem="0wC-xq-rSF" secondAttribute="trailingMargin" id="6Vs-QV-126"/>
+                            <constraint firstAttribute="bottom" secondItem="YyS-8i-gpL" secondAttribute="bottom" constant="20" symbolic="YES" id="9hC-Yj-5dl"/>
+                            <constraint firstItem="300-pU-8SW" firstAttribute="leading" secondItem="13q-Kb-pGd" secondAttribute="leading" id="Pm0-vR-g2v"/>
+                            <constraint firstItem="300-pU-8SW" firstAttribute="leading" secondItem="0wC-xq-rSF" secondAttribute="leadingMargin" id="RZf-Tz-JPZ"/>
+                            <constraint firstItem="13q-Kb-pGd" firstAttribute="leading" secondItem="YyS-8i-gpL" secondAttribute="leading" id="SBd-4o-9hJ"/>
+                            <constraint firstItem="300-pU-8SW" firstAttribute="trailing" secondItem="13q-Kb-pGd" secondAttribute="trailing" id="XCb-F2-wJa"/>
+                            <constraint firstItem="13q-Kb-pGd" firstAttribute="trailing" secondItem="YyS-8i-gpL" secondAttribute="trailing" id="XmZ-U4-23L"/>
+                            <constraint firstItem="13q-Kb-pGd" firstAttribute="top" secondItem="300-pU-8SW" secondAttribute="bottom" constant="8" symbolic="YES" id="lG5-4w-WrL"/>
+                            <constraint firstItem="YyS-8i-gpL" firstAttribute="top" secondItem="13q-Kb-pGd" secondAttribute="bottom" constant="8" symbolic="YES" id="rx3-zf-lUN"/>
+                            <constraint firstItem="300-pU-8SW" firstAttribute="top" secondItem="qb9-4X-T1M" secondAttribute="bottom" constant="8" symbolic="YES" id="uWn-50-mGe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLP-nx-CFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-795" y="-243"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="snT-py-3hH">
@@ -37,10 +98,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-3s-vaZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-3s-vaZ">
                                 <rect key="frame" x="19" y="150" width="560" height="430"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5y-hp-WrG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5y-hp-WrG">
                                 <rect key="frame" x="19" y="63" width="560" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="H5y-hp-WrG" secondAttribute="height" multiplier="560:51" id="uCw-AB-RhG"/>
@@ -61,8 +122,8 @@
                             <constraint firstItem="dzg-3s-vaZ" firstAttribute="top" secondItem="H5y-hp-WrG" secondAttribute="bottom" constant="36" id="FTl-Yf-ifk"/>
                             <constraint firstItem="H5y-hp-WrG" firstAttribute="trailing" secondItem="dzg-3s-vaZ" secondAttribute="trailing" id="FwI-LC-R28"/>
                             <constraint firstAttribute="bottom" secondItem="dzg-3s-vaZ" secondAttribute="bottom" constant="20" symbolic="YES" id="p59-sb-iJw"/>
-                            <constraint firstItem="H5y-hp-WrG" firstAttribute="trailing" secondItem="ZwX-cT-FIQ" secondAttribute="trailingMargin" id="vyo-NO-yPy"/>
-                            <constraint firstItem="H5y-hp-WrG" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" id="ygH-92-UP8"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="trailing" secondItem="ZwX-cT-FIQ" secondAttribute="trailingMargin" constant="-1" id="vyo-NO-yPy"/>
+                            <constraint firstItem="H5y-hp-WrG" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="-1" id="ygH-92-UP8"/>
                         </constraints>
                     </view>
                     <connections>
@@ -72,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="599" y="-441"/>
+            <point key="canvasLocation" x="537" y="-243"/>
         </scene>
     </scenes>
 </document>
