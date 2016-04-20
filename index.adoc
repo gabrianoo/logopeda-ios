@@ -1,0 +1,15 @@
+= Logopeda
+:author: Ahmed Hassanien
+:doctype: book
+:toc:
+:icons:
+:data-uri:
+:lang: en
+:encoding: utf-8
+
+Listen and Learn to Speak - Onomatopoeic Expressions
+
+[[description]]
+== Description
+
+An onomatopoeia is a word that phonetically imitates, resembles or suggests the source of the sound that it describes. Onomatopoeia (as an uncountable noun) refers to the property of such words. The famous example is the clock *TIK TAK*.
