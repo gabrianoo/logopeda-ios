@@ -1,5 +1,6 @@
 = Logopeda
 :author: Ahmed Hassanien
+:Email:  eng.ahmedgaber@gmail.com
 :doctype: book
 :toc:
 :icons:
@@ -9,7 +10,32 @@
 
 Listen and Learn to Speak - Onomatopoeic Expressions
 
-[[description]]
-== Description
+[[introduction]]
+== Introduction
 
-An onomatopoeia is a word that phonetically imitates, resembles or suggests the source of the sound that it describes. Onomatopoeia (as an uncountable noun) refers to the property of such words. The famous example is the clock *TIK TAK*.
+[[application]]
+=== The Application
+
+The application is for children that needs to learn how to speak (generally from 1-3 years old). Listening and repeating the sounds from the application is the first step in talking, later the teacher should mix the onomatopoeic expressions or the phonetics to construct meaningful words in your language.
+
+The application is for children that don't have any physical or mental issues, children with mental or physical issues should use the application under supervision from a specialist.
+
+All the ideas, phonetics or onomatopoeic expressions in the application is extracted from books, scientific papers or/and medical resources. All the references should be found in this document at the end. Any missing information, outdated or invalid please contact the author immediately to correct it.
+
+[[definitions]]
+=== Definitions
+
+1. An *onomatopoeia* is a word that phonetically imitates, resembles or suggests the source of the sound that it describes. Onomatopoeia (as an uncountable noun) refers to the property of such words. The famous example is the clock _TIK TAK_.
+2. In phonetics and linguistics, a *phone* is any distinct speech sound or gesture, regardless of whether or not the exact sound is critical to the meanings of words. In contrast, a phoneme is a speech sound that in a given language, if swapped with another phoneme, would change the meaning of the word. Phones are absolute, not specific to any language, while phonemes can only be discussed in reference to specific languages.
+
+[[goal]]
+=== Goal
+
+The application goal is not to teach the children animals or objects sounds; the goal is to teach them the onomatopeia of the famous objects or animals ... etc not the real sounds but the phonetics. So, don't be surprised if you found a cow and the sound _"MU"_ this is the goal, a real daily onomatopoeia phonetic that you should say each time you are in the situation of seeing the same animal or object.
+
+[[references]]
+== References
+
+1. https://en.wikipedia.org/wiki/Onomatopoeia[Onomatopoeia Wikipedia]
+2. https://en.wikipedia.org/wiki/Phone_(phonetics)[Phonetics Wikipedia]
+3. http://www.arson.pl/index.php?products=product&prod_id=60[Wyrażenia dźwiękonaśladowcze ISBN 978-83-61022-16-9]
