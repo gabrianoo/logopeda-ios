@@ -2,11 +2,8 @@ language: objective-c
 osx_image: xcode7.3
 before_install:
   - sudo easy_install cpp-coveralls
-  - brew uninstall xctool
-  - brew update
-  - brew install xctool --HEAD
-  - chmod +x ./scripts/coveralls.sh
+  - chmod +x ./scripts/run-test.sh
 script:
-  - xctool test ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+  - sh scripts/run-test.sh
 after_success:
   - ./scripts/coveralls.sh
