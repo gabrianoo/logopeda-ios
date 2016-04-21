@@ -1,0 +1,7 @@
+[
+  "-project", "Logopeda.xcodeproj",
+  "-scheme", "Logopeda",
+  "-sdk", "iphonesimulator9.3",
+  "-configuration", "Debug",
+  "-arch", "i386"
+]
