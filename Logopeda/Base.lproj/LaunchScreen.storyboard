@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 Ahmed Hassanien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="350-RF-laF">
+                                <rect key="frame" x="20" y="561" width="560" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="UFz-wS-p3I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logopeda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSs-wx-UWq">
+                                <rect key="frame" x="20" y="241" width="560" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="i6i-zM-2Al"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="46"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nSs-wx-UWq" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="221" id="5It-jW-Q4o"/>
+                            <constraint firstItem="nSs-wx-UWq" firstAttribute="trailing" secondItem="350-RF-laF" secondAttribute="trailing" id="7ui-pr-js2"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="350-RF-laF" secondAttribute="bottom" constant="8" symbolic="YES" id="KiC-9M-vOc"/>
+                            <constraint firstItem="nSs-wx-UWq" firstAttribute="leading" secondItem="350-RF-laF" secondAttribute="leading" id="QqR-Jz-fAt"/>
+                            <constraint firstItem="nSs-wx-UWq" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="YXY-Qj-xbX"/>
+                            <constraint firstItem="nSs-wx-UWq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="YYn-uW-ucc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
