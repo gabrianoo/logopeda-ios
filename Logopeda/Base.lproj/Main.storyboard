@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-101" y="-243"/>
         </scene>
-        <!--View Controller-->
+        <!--Instructions View Controller-->
         <scene sceneID="UjF-Sk-wbs">
             <objects>
-                <viewController id="7AL-Xa-1O2" sceneMemberID="viewController">
+                <viewController id="7AL-Xa-1O2" customClass="InstructionsViewController" customModule="Logopeda" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qb9-4X-T1M"/>
                         <viewControllerLayoutGuide type="bottom" id="KJl-yY-NuX"/>
@@ -44,16 +44,9 @@
                                     <constraint firstAttribute="width" secondItem="300-pU-8SW" secondAttribute="height" multiplier="56:5" id="i0Q-EU-Z52"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="13q-Kb-pGd">
-                                <rect key="frame" x="20" y="86" width="560" height="436"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyS-8i-gpL">
                                 <rect key="frame" x="20" y="530" width="560" height="50"/>
                                 <constraints>
@@ -66,6 +59,22 @@
                                     <segue destination="703-4V-yAM" kind="show" id="son-Un-Ctc"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="13q-Kb-pGd">
+                                <rect key="frame" x="20" y="86" width="560" height="436"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The application is not meant to be used by the children. You can let the child use the application as motivation if he pronounced a sound correctly. The best way is as follows:
+
+1. The teacher listens to the sound and see the picture.
+2. Show the picture to the child.
+3. Repeat the sound with articulation and slowly.
+4. Try to teach the child in front of a mirror or using a hand puppet.
+5. The child must be encouraged and motivated when the sounds are repeated even if he/she repeated the sound incorrectly.
+6. The teaching time is at least 10 minutes daily to be effective.
+
+One of the most important steps is making sure that the child sees how mouth moves to produce the pronounced sounds.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,6 +90,9 @@
                             <constraint firstItem="300-pU-8SW" firstAttribute="top" secondItem="qb9-4X-T1M" secondAttribute="bottom" constant="8" symbolic="YES" id="uWn-50-mGe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="instructionsTextView" destination="13q-Kb-pGd" id="ENX-pa-9SQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLP-nx-CFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

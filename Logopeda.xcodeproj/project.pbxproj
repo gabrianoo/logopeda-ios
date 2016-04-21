@@ -21,6 +21,7 @@
 		04D26B791CC58F8F004592F0 /* MiAU.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B751CC58F8F004592F0 /* MiAU.wav */; };
 		04D26B7A1CC58F8F004592F0 /* Pi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B761CC58F8F004592F0 /* Pi.wav */; };
 		04D26B7B1CC58F8F004592F0 /* S.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D26B771CC58F8F004592F0 /* S.wav */; };
+		04FA727D1CC8E2120016D0D0 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA727C1CC8E2120016D0D0 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		04D26B751CC58F8F004592F0 /* MiAU.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MiAU.wav; sourceTree = "<group>"; };
 		04D26B761CC58F8F004592F0 /* Pi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pi.wav; sourceTree = "<group>"; };
 		04D26B771CC58F8F004592F0 /* S.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = S.wav; sourceTree = "<group>"; };
+		04FA727C1CC8E2120016D0D0 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				04522C911CC56F7900E23337 /* Assets.xcassets */,
 				04522C931CC56F7900E23337 /* LaunchScreen.storyboard */,
 				04522C961CC56F7900E23337 /* Info.plist */,
+				04FA727C1CC8E2120016D0D0 /* InstructionsViewController.swift */,
 			);
 			path = Logopeda;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				04522C891CC56F7900E23337 /* RootViewController.swift in Sources */,
 				04522C8D1CC56F7900E23337 /* ModelController.swift in Sources */,
+				04FA727D1CC8E2120016D0D0 /* InstructionsViewController.swift in Sources */,
 				04522C8B1CC56F7900E23337 /* DataViewController.swift in Sources */,
 				04522C871CC56F7900E23337 /* AppDelegate.swift in Sources */,
 			);
