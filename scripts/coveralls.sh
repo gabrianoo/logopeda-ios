@@ -1,7 +1,6 @@
 #!/bin/bash
 
-trim()
-{
+trim() {
     trimmed=$1
     trimmed=${trimmed%% }
     trimmed=${trimmed## }
@@ -21,29 +20,25 @@ declare -r gcov_dir="${OBJECT_FILE_DIR_normal}/${CURRENT_ARCH}/"
 
 ## ======
 
-generateGcov()
-{
+generateGcov() {
 	#  doesn't set output dir to gcov...
 	cd "${gcov_dir}"
 	for file in ${gcov_dir}/*.gcda
 	do
-		gcov-4.2 "${file}" -o "${gcov_dir}"
+		gcov "${file}" -o "${gcov_dir}"
 	done
 	cd -
 }
 
-copyGcovToProjectDir()
-{
+copyGcovToProjectDir() {
 	cp -r "${gcov_dir}" gcov
 }
 
-removeGcov(){
+removeGcov() {
 	rm -r gcov
 }
 
-main()
-{
-
+main() {
 # generate + copy
  	generateGcov
 	copyGcovToProjectDir

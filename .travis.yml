@@ -1,9 +1,9 @@
 language: objective-c
 osx_image: xcode7.3
 before_install:
-  - sudo easy_install cpp-coveralls
+  - rvm use $RVM_RUBY_VERSION
   - chmod +x ./scripts/run-test.sh
+install: bundle install --without=documentation --path ../travis_bundle_dir
 script:
   - sh scripts/run-test.sh
-after_success:
-  - ./scripts/coveralls.sh
+after_success: slather
