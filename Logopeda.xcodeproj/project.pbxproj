@@ -425,7 +425,7 @@
 				04522CAE1CC56F7900E23337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		04522CAF1CC56F7900E23337 /* Build configuration list for PBXNativeTarget "Logopeda" */ = {
 			isa = XCConfigurationList;
@@ -434,7 +434,7 @@
 				04522CB11CC56F7900E23337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		04522CB21CC56F7900E23337 /* Build configuration list for PBXNativeTarget "LogopedaTests" */ = {
 			isa = XCConfigurationList;
@@ -443,7 +443,7 @@
 				04522CB41CC56F7900E23337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
