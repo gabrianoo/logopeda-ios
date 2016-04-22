@@ -1,7 +1,6 @@
 language: objective-c
 osx_image: xcode7.3
-before_install: rvm use $RVM_RUBY_VERSION
-install: bundle install --without=documentation --path ../travis_bundle_dir
+install: gem install slather
 script: xcodebuild -project Logopeda.xcodeproj -scheme Logopeda -sdk iphonesimulator9.3 test 
 after_success: slather
 notifications:
