@@ -1,6 +1,6 @@
-= Logopeda
+= Logopeda =
 :author: Ahmed Hassanien
-:Email:  eng.ahmedgaber@gmail.com
+:email:  eng.ahmedgaber@gmail.com
 :doctype: book
 :toc:
 :icons:
@@ -11,31 +11,56 @@
 Listen and Learn to Speak - Onomatopoeic Expressions
 
 [[introduction]]
-== Introduction
+== Introduction ==
 
 [[application]]
-=== The Application
+=== The Application ===
 
 The application is for children that needs to learn how to speak (generally from 1-3 years old). Listening and repeating the sounds from the application is the first step in talking, later the teacher should mix the onomatopoeic expressions or the phonetics to construct meaningful words in your language.
 
+[IMPORTANT]
 The application is for children that don't have any physical or mental issues, children with mental or physical issues should use the application under supervision from a specialist.
 
 All the ideas, phonetics or onomatopoeic expressions in the application is extracted from books, scientific papers or/and medical resources. All the references should be found in this document at the end. Any missing information, outdated or invalid please contact the author immediately to correct it.
 
 [[definitions]]
-=== Definitions
+=== Definitions ===
 
 1. An *onomatopoeia* is a word that phonetically imitates, resembles or suggests the source of the sound that it describes. Onomatopoeia (as an uncountable noun) refers to the property of such words. The famous example is the clock _TIK TAK_.
 2. In phonetics and linguistics, a *phone* is any distinct speech sound or gesture, regardless of whether or not the exact sound is critical to the meanings of words. In contrast, a phoneme is a speech sound that in a given language, if swapped with another phoneme, would change the meaning of the word. Phones are absolute, not specific to any language, while phonemes can only be discussed in reference to specific languages.
 
 [[goal]]
-=== Goal
+=== Goal ===
 
 The application goal is not to teach the children animals or objects sounds; the goal is to teach them the onomatopeia of the famous objects or animals ... etc not the real sounds but the phonetics. So, don't be surprised if you found a cow and the sound _"MU"_ this is the goal, a real daily onomatopoeia phonetic that you should say each time you are in the situation of seeing the same animal or object.
 
 [[references]]
-== References
+== References ==
 
 1. https://en.wikipedia.org/wiki/Onomatopoeia[Onomatopoeia Wikipedia]
 2. https://en.wikipedia.org/wiki/Phone_(phonetics)[Phonetics Wikipedia]
 3. http://www.arson.pl/index.php?products=product&prod_id=60[Wyrażenia dźwiękonaśladowcze ISBN 978-83-61022-16-9]
+
+[[licenses]]
+== Licenses ==
+
+=== Documentation Resources ===
+
+1. Icons used in this document are http://hawcons.com/[Hawcons] set for http://www.yanlu.de/[Yannick Lung] licensed under _Free for commercial use_
+
+=== Application Resources ===
+
+1. Jersey Cow image https://www.flickr.com/photos/kacey/3573997469/in/photolist-6rPEW2-j8oKCN-23vazR-o2buP-hpFQvQ-6kj9vL-cvNqNo-qgrcqZ-87Dei6-5etZRY-5uFyWj-8QBYgZ-5uFzos-5DH4mm-29ckC-a2MRPW-roGpc-6frytG-9P57Bw-aGp7fa-gqDDjY-56ppD3-rcARGA-83KYeG-cTv4uA-ekcj52-emKA27-9XGwcw-PvUmh-iRttXJ-6jDQjk-niz3He-g24iey-6qTbxu-6xZphQ-8aMTe7-bchtUc-cbfyqQ-6hBop8-ehRUk-a5aN7K-8LoMTM-hCL24-aCaotM-4HkQ8T-9WHdB8-83KXWh-8dR7aC-qVy3a-d5mKgL[by PROKaCey97078] licensed under _Creative Commons_
+2. 1965 Ford Mustang Convertible, Serial Number One image https://www.flickr.com/photos/thehenryford/6766788949/in/photolist-biXyAZ-G9kyM7-emuEC-8QNw5d-biXDUg-b8RS2z-aiFqpt-7FkL8x-6zei6n-7yUB4F-rvjjqp-7FkL8D-bMM1zH-gnANLK-8AWufy-biYpaT-bCN7bT-bySjYh-bGRMSR-dP42Ue-a4FDhe-brsAKf-dGKJxX-57ZurR-brsETs-7Fnfbh-9mXuKK-7QqJBL-bMM2kP-3Vu5fp-AQtojn-biTzvH-3vUeVY-biXsQe-6qU2Sm-qZsQ1U-849rt4-biXhsB-6qPPWz-biUqnt-yeKjeX-biUEPR-5TX6A1-9YhZq1-nfnodv-aevvK4-biSHW8-fG2TN-3V51pQ-kmvKN5[by The Henry Ford] licensed under _Creative Commons_
+3. Figure 8 (Snake) image https://www.flickr.com/photos/furryscalyman/3523826115/in/photolist-6nowJF-a1V6im-a1V6fC-72EnCq-9y8Hkp-5gXcbk-BRD2h3-g1huYJ-dLFKdE-fr1Z7-98eUBZ-J2F3s-fr1ZY-dDiSvi-87vTYq-at1hX3-uXreRc-b3fyPp-nzmiuH-cPgP8U-BwTEpx-6xFp3u-96Cvz8-e2irR1-dfYdmn-e5QceX-bd8tVi-8aQ1V2-eh7k7E-4GvbJz-59VZcJ-xiHUL3-mhbmt4-xYeLXV-cHWh2C-orv7iU-oappnV-rEVEam-34gF7D-cNnuJN-bDswXb-tNYRxY-ivJxcu-6q5XWX-gi74a9-4oKNhx-eq6fu-euU5s-88aMR9-ytr2Es[by Matt Reinbold] licensed under _Creative Commons_
+4. Kaiser the Police Dog image https://www.flickr.com/photos/cheshirepolice/5576849098/in/photolist-9uNNWE-raCQwd-xekhUE-8QQWoT-4STXAi-wXiVJQ-no94Rj-xebzfo-9w9CGS-va4vcd-493EXo-8niDVW-gLB4Cn-4BL1Ah-xfrhWz-6xV8dy-dV26un-mF9zd-9k3RoC-9yCCqY-ehYaBV-93Nkmq-7ibVoe-wibqMh-no948W-azrJmr-bo5dVn-4AD3wY-wXqsUU-xeWgka-7e9aL1-qP11un-7z112F-xcFF3J-kfUksa-xf99az-72Dqps-zMzMR-3gpccY-5h4Nn6-dMFx8G-8Yzr9L-22UvX-tRWqJQ-fV4x1-8kZiKi-94tLAF-7ifPG3-qi1GB-rcGQDi[by Cheshire Police] licensed under _Creative Commons_
+5. Ginta (Cat) image https://www.flickr.com/photos/gintacat/2116529295/in/photolist-4e2Lqp-6R5hU-nwTFXu-owVkdM-bxkzx8-nwSu3a-fd7sCV-ehMkwT-dnEi2v-6WP75Z-ei8aqZ-8hTZfy-4pG6dW-3toTt-druxBq-vxMGz-7ZL5BT-evCjfm-5xUnZB-bMLPtK-97Rdr6-mY4ibA-x1E9CW-asHHnt-5xVwgU-8ryPqV-62qEwz-6QUcRT-8p66Se-81vk1-nfnxiV-RMnJ6-FsvaQq-9mAZhU-7HK8ya-FHtxS-9AfoyW-cUPhgC-3eCC4b-rZxQZ6-deAxei-6j8y4k-5sswRw-bGaGiH-7fbcVy-nBeGPN-aZdQHV-dZU7gj-9vD6tN-aTBHpX[by YOICHI NAKANISHI] licensed under _Creative Commons_
+6. 5 (rat) image https://www.flickr.com/photos/alexk100/1091960123/in/photolist-2EuzGF-fFNGWH-wF4Eh-fFNHkc-757Hi-fG6hD5-5yYDfz-d2pCQ-7sQ5g7-4HBeJe-aKWdBn-eMXQUg-7smKF8-7cNiNd-bpHmSA-24B9sX-2gi2GQ-A6juwS-3Kzc6Z-p2gA7d-xwqGM-5Ssudx-3f8Dof-4vBG9d-4vBFno-yxUv9-x7C5y-2jo7rU-4vxzoa-4vxA8V-61bvM-2Euzgp-2Ez2pb-5HUmAf-9Usu9F-fFNJqk-4KJ6sJ-66NTow-8Jzxb4-fFNJue-5HUkkq-7eyALH-4vBMu1-aCM4AT-2gi2BS-5funF9-7fVzS6-8A8TNU-wEag9-EqzFX[by Alexey Krasavin] licensed under _Creative Commons_
+7. Pride (Hourse) image https://www.flickr.com/photos/darrelbirkett/4956267471/in/photolist-8xYaDr-9K4w2W-9ZzmqU-bVRkst-sHqejd-4tdEyb-5XEL54-3BBCB-7qzQ4s-4M7hCJ-diHwxK-4JpPY6-51m8PY-udcXy-9K4vPA-fr6Zkm-9Cvqbw-NeRf5-gN7kh4-6a6weV-dDJxQm-F4Q7XS-bj3ajz-8eaETz-9K1G8M-cMEKxJ-sZLgUj-iLNET-NeR73-8gJ6S5-bVRaZ8-vjHAm-Ee7Qw-9K4vWA-9K4wKd-9K4vKA-bD4Z81-rp5D-bD4Zd7-a6c7Zv-gs8MbB-95rugp-9K1G24-gjxDXX-cdeCLC-87t9kx-8NgW2Q-4uPM2H-erqrU7-aMzRrK[by DarrelBirkett] licensed under _Creative Commons_
+8. Wood Frog image https://www.flickr.com/photos/briangratwicke/13491404025/in/photolist-mybYoe-iUkgoo-bQFhjD-9fuJ8m-iUjtnz-9ZfCcP-7e4DZY-iUiyAe-iUjK5X-iUngZm-iUishH-omi7xt-nuN3ai-8QgEAD-nuwdDU-8ekAVM-nznaYB-oznbqF-8UerA2-9frXnT-8ekaCV-7Xa8eD-7WWUxg-z6RkzD-av5VZF-dFNPgE-nSgcFB-9fuxTE-7XE7hg-oWYd3g-oC6nzF-9frNSD-9fuMzL-dsH59y-9ZifMG-7XHn3N-oKz4KT-g6TCon-8CjKUy-oQQUKM-pnCHTD-8eoSpj-9frAkx-dFNPAb-oUjKbX-p295tW-ati4QD-AmhBCp-7XHbtY-2Mwbvo[by Brian Gratwicke] licensed under _Creative Commons_
+9. \_-6.jpg (Owl) image https://www.flickr.com/photos/photo_magic/20638036960/in/photolist-xrHkns-2cZTJM-8MRAL2-dSqx2v-5t8PY-ambmBE-6dYKzZ-fzvfeR-6dYKyP-58qeD3-dMRp8X-cV2PMm-58qha1-m5bwHV-eGiTvr-9DdYeT-cgsLa-fa1obX-kcpTA-jyTUBj-7DEd-nuSSMB-2cZQY2-c4Rkzj-9EBtgK-4W1Dqc-aqjwHH-osRF46-7eSUuP-6AMV1C-9UaZVu-bAuyFn-E8ZSJs-98vHbK-DKLZe3-s3kCgV-dmoP5f-dtKr5A-fa1o4a-8cvpd9-b8RZVK-aDxvzz-9zY7sP-7JEXka-cUfkeo-dK1ifU-zUdGAo-85gnwj-c6xbNL-6ppiJL[by Rui Rocha] licensed under _Creative Commons_
+10. a171632 bayzel (Rabbit) image https://www.flickr.com/photos/rohit_saxena/14951893792/in/photolist-oMfn7h-ktSjpg-rjv1Ve-7ncB3g-3fDn9D-qDLSJ7-3fHJ9Y-my2Ko-h7J3oV-8MHxQE-4Adayy-ktUbaL-7xcKNp-ktSJ14-ktUqbw-atpWDH-edvFxK-oWsh8i-8of2m9-5cYnWU-djsrfv-pdXJKP-nieMdu-6xxJ1B-7iCZkk-oWtEry-tnksu-7ncBqp-82PeZ7-4mcGd5-ktU4pS-zmvjKq-4KBx6Y-4tfsZK-82Pf6f-ktX8s5-82L5on-ksutUM-82Pf1W-feu6S-82Pf3y-7ucinc-w55kNX-ouNd6p-7e7Ev-ktSCtH-bUHpMy-7iGUzq-oWtjX3-2e2jHT[by The.Rohit] licensed under _Creative Commons_
+11. gina pina (Chick) image https://www.flickr.com/photos/ginapina/4380403821/in/photolist-7F5HrP-aedDtv-aedpZP-aegsjs-akfzVN-afZvFW-4nityS-FL6PBb-47YFBA-B4sspX-4neprz-47YFHA-asesRw-akfzSm-aegrXA-dsWhos-asVZQB-aedDgi-wtCfBN-3ehR57-akcNPc-8edwM4-5fbnNQ-8qBsjv-2yN9iC-8cdaNu-zukXy-2p51W-amC2nz-2yHGXn-7WTdPb-8zksFK-iuhNUu-dhSoo-53JvU8-53JvUc-5P2BKr-oM2fsZ-nJJnWi-4qbY5t-aegrYL-akfzRj-4hgZ3w-4wTrTE-gRBW-8agq5B-asYCb5-2UttRg-47FSj-7WTe6G[by Ameraucana] licensed under _Creative Commons_
+12. Springbok (Train) image https://www.flickr.com/photos/45131642@N00/8961062326/in/photolist-eDRMCA-5u2Fr7-bTyRM8-9Z1mqj-9kuMY5-cHzaH-xLrkw-5Zcbee-78MpZT-9GnpsK-sBfB96-71wD9X-7LhAdy-5Q7v6u-6Xjcp-erCFj-6HCxsn-jyX2s7-i3hvcG-7EKXqf-7LhB5d-dtbM3v-btE2iu-6ADDRi-8fU7Nh-7LxFvW-99rFAh-onvQtP-jyX2b5-pfQQS-9h7Ycu-8NLByb-7W9d9w-bGyQDx-Fn9HE-7hvFMB-9h4QoP-jyUQBV-e2DasV-58fWug-qpf8w9-86eSbW-6zf4JZ-praLgK-2DSMDW-7hvFTD-4Jg4fo-bGyQAB-Kskqy-9XSF[by Phil Parker] licensed under _Creative Commons_
+13. 13080_PE040801_S4 (Clock) image https://www.flickr.com/photos/brunurb/13131281455/in/photolist-m1nfup-sBeiCW-9izfYR-7UTmVK-9UUtWJ-9izg4F-m1o2Dk-6LV5ht-6VXZcY-mXpnaU-dxu3nw-7AELgw-6hu28G-abrYad-a2C4xU-a2z6Tx-bVEgLf-hUuD3s-9hqzj6-6Vjrjh-46PDuP-9Xjjvk-bXpFL-7127rp-fKrMvy-9pRj7c-at7awg-9x68cm-s7GYTU-8b6x7q-bTLnDc-m1mNXx-6hu2r9-m1mXdR-bVxwEy-8XMSEi-4ots4S-cLGTME-rry28E-d2s2Nu-pmsV-rDudPw-Dp9i8s-d2s2Rq-AQsTF5-d2TnNQ-sqj1cq-evHhUH-762FtZ-9fG98b[by brunurb] licensed under _Creative Commons_
+14. 229383-bateria_smart_force_stage_1_black (Drums) https://www.flickr.com/photos/93894778@N06/8619301668/in/photolist-e8Eb6s-7KyS4-rgqdMZ-4Hgp5i-52PAaj-b6iZWc-6UTyjz-6c4EQ5-czoz5j-5P18bZ-9sSWRR-czoxCG-5U3uJe-jPr2Kn-4f8W2p-5Vctp9-9x93qE-7pxQLd-gkRgN7-7HJQYF-PV2Xv-gkReyC-gkR4Hz-gkR6za-5o5FF8-wzB5Q-amR2to-6upHyK-f9AStT-f9AGbM-5QNzLY-w2sbZb-c7pSk1-dHy1ux-6Z1vyy-avNrf-5R77Pd-7v8XbW-5U35AP-rVJHQZ-9rXDHX-h9SQU3-amonaL-7vQ5jo-mh9WQJ-4HZRxq-yT6Bd-kGe77-mTAUAm-h9SSho[by Versiones Informales] licensed under _Creative Commons_
